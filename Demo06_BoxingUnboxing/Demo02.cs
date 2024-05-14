@@ -22,6 +22,7 @@ namespace Demo06_BoxingUnboxing
             {
                 // AS Operator is the SAFE TYPE CAST Operator
                 // AS Operator returns NULL if it is not able to typecast successfully!
+                // AS Operator works ONLY WITH reference types.
                 Scooter? scooter = obj as Scooter;  // unboxing (EXPLICIT) with AS Operator
 
                 //if(scooter is not null)

@@ -21,6 +21,10 @@
             i++;
             // o++;
             o = (int)o + 1;
+
+            // AS operator does not work with ValueTypes
+            // int x = o as int;
+            int x = (int)o;
         }
 
         static void Demo02()
