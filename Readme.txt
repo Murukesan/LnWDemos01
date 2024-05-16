@@ -35,14 +35,14 @@ TYPE
 		Struct
 	ReferenceTypes
 		Class
-OBJECT
+OBJECT (exhibits Attributes and Behaviours)
 	Data Field
 	Method
 	Property
 	Indexer
 	Constructor
-		Type Constructor
-		Instance Constructor
+		Type Constructor (Parameterless)
+		Instance Constructor (Parameterless, Parametized)
 
 
 Programming Concepts
@@ -55,7 +55,11 @@ Programming Concepts
 	3. Validation
 	4. Activity / Process
 	5. Audit Logging
--
+- Inheritance
+- Polymorphism
+  - Overload
+  - Override
+
 
 GoF (Gang Of Four) Design Patterns
 - Creational Patterns
