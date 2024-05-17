@@ -14,17 +14,14 @@ Common Type System (CTS)  -- object
 
 ------------------------
 
-NAMING CONVENTION STYLES
+NAMING CONVENTION STYLES (for helping to identify Scope)
 
-firstname	Small Casing		Local
-
-FIRSTNAME	Capital Casing		Constants
-
-FirstName	Pascal Casing		Public
-
-_firstName	Camel Casing		Private
-
-firstName	Camel Casing		Protected
+												HUNGARIAN PRINCIPLE OF MEMBER NAMING
+firstname	Small Casing		Local			name			namestring		strname
+FIRSTNAME	Capital Casing		Constants		NAME			NAMESTRING		STRNAME
+FirstName	Pascal Casing		Public			Name			NameString		StrName
+_firstName	Camel Casing		Private			_name			_nameString		_strName
+firstName	Camel Casing		Protected		name			nameString		strName
 
 ------------------------
 
@@ -32,9 +29,12 @@ Tools of Programming
 NAMESPACE
 TYPE
 	ValueTypes
+		Enum
 		Struct
 	ReferenceTypes
 		Class
+		Interface
+		Delegate
 OBJECT (exhibits Attributes and Behaviours)
 	Data Field
 	Method
@@ -58,7 +58,8 @@ Programming Concepts
 - Inheritance
 - Polymorphism
   - Overload
-  - Override
+  - Override  (abstract, virtual, override, sealed, new)
+  - Interface
 
 
 GoF (Gang Of Four) Design Patterns
