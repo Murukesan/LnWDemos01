@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Demo14_Interface02.Demo04.Demo" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Demo04.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Demo14_Interface02.Demo04.Quadrilateral" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAQAIAQAAAABAAAAAAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>Demo04.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.254" Collapsed="true" />
+  </Class>
+  <Interface Name="Demo14_Interface02.Demo04.IShape" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Demo04.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Demo14_Interface02.Demo04.IRectangle" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Demo04.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Demo14_Interface02.Demo04.ISquare" Collapsed="true">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Demo04.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>

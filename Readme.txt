@@ -55,11 +55,13 @@ Programming Concepts
 	3. Validation
 	4. Activity / Process
 	5. Audit Logging
+- Aggregation
 - Inheritance
 - Polymorphism
   - Overload
   - Override  (abstract, virtual, override, sealed, new)
-  - Interface
+  - Interface 
+  - Delegate
 
 
 GoF (Gang Of Four) Design Patterns
