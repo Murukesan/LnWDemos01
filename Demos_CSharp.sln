@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo16_IEnumerator", "Demo1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo17_IEnumerable", "Demo17_IEnumerable\Demo17_IEnumerable.csproj", "{1849C10E-A98D-42EF-8EBF-5C8B21306D4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo18_Event", "Demo18_Event\Demo18_Event.csproj", "{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{1849C10E-A98D-42EF-8EBF-5C8B21306D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1849C10E-A98D-42EF-8EBF-5C8B21306D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1849C10E-A98D-42EF-8EBF-5C8B21306D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
