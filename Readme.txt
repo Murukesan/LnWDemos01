@@ -64,6 +64,22 @@ Programming Concepts
   - Interface 
   - Delegate
 
+INSTANCE MODIFIERS
+	this
+	base
+	static
+SCOPE ACCESS MODIFIERS 
+	public				(available everywhere - current class, derived class, obj of current, obj of derived)
+	private				(only within current class)
+	protected			(current class, derived class)
+	internal			(available everywhere - only in the same assembly )
+	protected internal	(available eveywhere with the assembly + derived class in another class)
+INHERITANCE MODIFIERS
+	virtual => override
+	abstract => override
+	override => override
+	new
+	sealed
 
 GoF (Gang Of Four) Design Patterns
 - Creational Patterns
@@ -76,4 +92,30 @@ EVOLUTION PROGRAMMING LANGUAGE
 	Statement Driven Programming	( HTML)
 	Procedural Programming			( C, PASCAL, COBOL 85/87 )
 	Object Oriented Programming		( C++* )
-	Event Driven Programming		
+	Event Driven Programming	
+	Declarative Programming
+
+=============================================================
+
+STANDARD DEVICES
+	Standard Input => Input Object (IN)
+	Standard Output => Output Object (OUT) / (PRN)
+	Standard Error => Error Object (ERR)
+
+Errors
+	Compile Time Error (Syntax associated)
+	Semantic Error (Logic associated)
+	Run Time Error (most critical - abnormally terminates app)
+Exception
+	Handled Run Time Error  ( try ..  catch... finally, throw new )
+
+
+System.Exception
+	- System.SystemException (thrown by the OS / CLR)
+		System.OutOfMemoryException
+		...
+	- System.ApplicationException (thrown by the user's code)
+		System.DivideByZeorException
+		System.IndexOutOfBoundsException
+		System.ArithmeticOverflowException
+		...

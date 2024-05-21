@@ -17,6 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo06_BoxingUnboxing", "De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{685764B2-DF53-4834-8305-E31FB8D2AFE4}"
 	ProjectSection(SolutionItems) = preProject
+		ErrorObject.png = ErrorObject.png
+		ExceptionHandlingFlow.gif = ExceptionHandlingFlow.gif
+		OnErrorGoto.png = OnErrorGoto.png
 		README.md = README.md
 		Readme.txt = Readme.txt
 	EndProjectSection
@@ -35,15 +38,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo12_Interface", "Demo12_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo13_Delegate", "Demo13_Delegate\Demo13_Delegate.csproj", "{CEBA30DE-8826-4C60-BBC7-542E2856DE34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo14_Interface02", "Demo14_Interface02\Demo14_Interface02.csproj", "{24A7D3D5-C27C-4BA2-96E3-A3147E422798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo14_Interface02", "Demo14_Interface02\Demo14_Interface02.csproj", "{24A7D3D5-C27C-4BA2-96E3-A3147E422798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo15_Generics", "Demo15_Generics\Demo15_Generics.csproj", "{03DD303E-031F-44B8-9E53-BE07DE9546B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo15_Generics", "Demo15_Generics\Demo15_Generics.csproj", "{03DD303E-031F-44B8-9E53-BE07DE9546B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo16_IEnumerator", "Demo16_IEnumerator\Demo16_IEnumerator.csproj", "{107FBABD-5CAB-4344-82D3-D5513DD0A39E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo16_IEnumerator", "Demo16_IEnumerator\Demo16_IEnumerator.csproj", "{107FBABD-5CAB-4344-82D3-D5513DD0A39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo17_IEnumerable", "Demo17_IEnumerable\Demo17_IEnumerable.csproj", "{1849C10E-A98D-42EF-8EBF-5C8B21306D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo17_IEnumerable", "Demo17_IEnumerable\Demo17_IEnumerable.csproj", "{1849C10E-A98D-42EF-8EBF-5C8B21306D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo18_Event", "Demo18_Event\Demo18_Event.csproj", "{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo18_Event", "Demo18_Event\Demo18_Event.csproj", "{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo19_Event_INotifyPropertyChanged", "Demo19_Event_INotifyPropertyChanged\Demo19_Event_INotifyPropertyChanged.csproj", "{B00F0214-DBD9-4F98-B176-DD520F97843B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo20_Exception", "Demo20_Exception\Demo20_Exception.csproj", "{C322BD68-A648-4467-8DAB-41D3828183C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo20_ExceptionLibrary", "Demo20_ExceptionLibrary\Demo20_ExceptionLibrary.csproj", "{CDBCAC79-B890-4BC4-A3C6-27CAFF7189BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo21_Linq", "Demo21_Linq\Demo21_Linq.csproj", "{F1587BAD-0527-497C-9419-43135002471F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +134,22 @@ Global
 		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC6ED1B-F9BE-4C40-8B92-9ABA6E6A3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00F0214-DBD9-4F98-B176-DD520F97843B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00F0214-DBD9-4F98-B176-DD520F97843B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00F0214-DBD9-4F98-B176-DD520F97843B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00F0214-DBD9-4F98-B176-DD520F97843B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C322BD68-A648-4467-8DAB-41D3828183C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C322BD68-A648-4467-8DAB-41D3828183C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C322BD68-A648-4467-8DAB-41D3828183C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C322BD68-A648-4467-8DAB-41D3828183C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBCAC79-B890-4BC4-A3C6-27CAFF7189BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBCAC79-B890-4BC4-A3C6-27CAFF7189BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBCAC79-B890-4BC4-A3C6-27CAFF7189BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBCAC79-B890-4BC4-A3C6-27CAFF7189BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1587BAD-0527-497C-9419-43135002471F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1587BAD-0527-497C-9419-43135002471F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1587BAD-0527-497C-9419-43135002471F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1587BAD-0527-497C-9419-43135002471F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
